@@ -5,7 +5,7 @@
     <img class="h-64 w-64 rounded" :src="drink.strDrinkThumb" alt=""/> 
       <h2 class="mt-2"><strong>{{ drink.strDrink }}</strong></h2>
       <div class="mt-2.5"> <strong>Ingridients: </strong> 
-        <ul class="max-w-lg list-none flex flex-col flex-wrap justify-between pt-2.5 pr-0 pb-7 pl-5 ">
+        <ul class="max-w-lg list-disc flex flex-col flex-wrap justify-between pt-2.5 pr-0 pb-7 pl-5 ">
           <li>{{ drink.strIngredient1 }} </li>
           <li>{{ drink.strIngredient2 }} </li>
           <li>{{ drink.strIngredient3 }} </li>
